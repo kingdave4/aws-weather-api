@@ -35,7 +35,7 @@ git clone https://github.com/kingdave4/aws-weather-api.git
 cd aws-weather-api
 
 
-###Install the required Python packages:
+### Install the required Python packages:
 bash
 
 pip install -r requirements.txt

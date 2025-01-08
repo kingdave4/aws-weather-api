@@ -28,21 +28,20 @@ AWS_DEFAULT_REGION=<aws_region>
 
 
 
-Installation
+###Installation
 Clone this repository:
 
 git clone https://github.com/kingdave4/aws-weather-api.git
 cd aws-weather-api
 
 
-Install the required Python packages:
+###Install the required Python packages:
 bash
 
 pip install -r requirements.txt
 
 
-
-Run the program:
+###Run the program:
 
 bash
 
@@ -50,7 +49,7 @@ python weather_dashboard.py
 
 
 
-The program will:
+###The program will:
 
 Attempt to create an S3 bucket if it doesn't already exist.
 Fetch weather data for predefined cities (Toronto, Calgary, Ottawa, Vancouver, Montreal).

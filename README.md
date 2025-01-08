@@ -16,7 +16,6 @@ The **Weather Dashboard** is a Python-based tool for fetching, displaying, and s
 3. **Environment File**: Create a `.env` file in the project directory with the following variables:
 
 
-
 WEATHER_API_KEY=<your_openweathermap_api_key>
 
 AWS_BUCKET_NAME=<base_name_for_your_bucket>
@@ -32,11 +31,8 @@ AWS_DEFAULT_REGION=<aws_region>
 Installation
 Clone this repository:
 
-
-git https://github.com/kingdave4/aws-weather-api.git
-
-cd aws-weather-api.git
-
+git clone https://github.com/kingdave4/aws-weather-api.git
+cd aws-weather-api
 
 
 Install the required Python packages:
@@ -45,7 +41,11 @@ bash
 pip install -r requirements.txt
 
 
+
+Run the program:
+
 bash
+
 python weather_dashboard.py
 
 
@@ -60,7 +60,13 @@ Save the fetched data as JSON files in the S3 bucket.
 
 Example Output
 
-![image](https://github.com/user-attachments/assets/2b7ab102-190d-4506-af49-1b735cecf920)
+Fetching weather data for Toronto...
+Temperature: 5°C
+Feels like: 2°C
+Humidity: 85%
+Description: clear sky
+Data saved to S3 bucket weather-bucket-12345 with key weather_data_/Toronto_2025-01-07-12-00-00.json
+---------------------------------------------------
 
 
 

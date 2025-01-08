@@ -63,14 +63,12 @@ Save the fetched data as JSON files in the S3 bucket.
 
 
 
-
-
-
-
 ### Project Structure
 
 ├── weather_dashboard.py      # Main script
-├── requirements.txt          # Python dependencies
+
+── requirements.txt          # Python dependencies
+
 ├── .env 
 
 

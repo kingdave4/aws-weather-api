@@ -32,6 +32,7 @@ AWS_DEFAULT_REGION=<aws_region>
 Clone this repository:
 
 git clone https://github.com/kingdave4/aws-weather-api.git
+
 cd aws-weather-api
 
 

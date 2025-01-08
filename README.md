@@ -2,14 +2,14 @@
 
 The **Weather Dashboard** is a Python-based tool for fetching, displaying, and storing weather data in AWS S3. It uses the OpenWeatherMap API to gather weather information for specified cities and saves the results as JSON files in an S3 bucket.
 
-## Features
+# Features
 
 - Fetches weather data for multiple cities using the OpenWeatherMap API.
 - Displays weather information such as temperature, "feels like" temperature, humidity, and weather description.
 - Automatically creates an S3 bucket (with a randomized suffix) if it doesn't exist.
 - Saves weather data as JSON files to the S3 bucket.
 
-## Prerequisites
+# Prerequisites
 
 1. **AWS Account**: Ensure you have an AWS account with appropriate permissions to create and use S3 buckets.
 2. **OpenWeatherMap API Key**: Sign up for an API key from [OpenWeatherMap](https://openweathermap.org/api).

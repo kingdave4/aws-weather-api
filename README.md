@@ -57,7 +57,7 @@ Display the weather information in the terminal.
 Save the fetched data as JSON files in the S3 bucket.
 
 
-Example Output
+### Example Output
 
 Fetching weather data for Toronto...
 Temperature: 5°C
@@ -68,21 +68,20 @@ Data saved to S3 bucket weather-bucket-12345 with key weather_data_/Toronto_2025
 ---------------------------------------------------
 
 
-
-Project Structure
+### Project Structure
 
 ├── weather_dashboard.py      # Main script
 ├── requirements.txt          # Python dependencies
 ├── .env 
 
 
-Dependencies
+### Dependencies
 boto3: For interacting with AWS S3.
 requests: For making HTTP requests to the OpenWeatherMap API.
 python-dotenv: For managing environment variables.
 
 
-Install them using:
+#### Install them using:
 bash
 
 pip install boto3 requests python-dotenv

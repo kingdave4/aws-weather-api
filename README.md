@@ -59,13 +59,8 @@ Save the fetched data as JSON files in the S3 bucket.
 
 ### Example Output
 
-Fetching weather data for Toronto...
-Temperature: 5°C
-Feels like: 2°C
-Humidity: 85%
-Description: clear sky
-Data saved to S3 bucket weather-bucket-12345 with key weather_data_/Toronto_2025-01-07-12-00-00.json
----------------------------------------------------
+![image](https://github.com/user-attachments/assets/71a42957-0a0d-4577-a072-7a9c9042fc56)
+
 
 
 ### Project Structure

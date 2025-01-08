@@ -77,7 +77,9 @@ Data saved to S3 bucket weather-bucket-12345 with key weather_data_/Toronto_2025
 
 ### Dependencies
 boto3: For interacting with AWS S3.
+
 requests: For making HTTP requests to the OpenWeatherMap API.
+
 python-dotenv: For managing environment variables.
 
 

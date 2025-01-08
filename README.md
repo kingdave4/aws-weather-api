@@ -15,11 +15,11 @@ The **Weather Dashboard** is a Python-based tool for fetching, displaying, and s
 2. **OpenWeatherMap API Key**: Sign up for an API key from [OpenWeatherMap](https://openweathermap.org/api).
 3. **Environment File**: Create a `.env` file in the project directory with the following variables:
    ```plaintext
-   WEATHER_API_KEY=<your_openweathermap_api_key>
-   AWS_BUCKET_NAME=<base_name_for_your_bucket>
-   AWS_ACCESS_KEY_ID=<your_aws_access_key_id>
-   AWS_SECRET_ACCESS_KEY=<your_aws_secret_access_key>
-   AWS_DEFAULT_REGION=<aws_region>
+WEATHER_API_KEY=<your_openweathermap_api_key>
+AWS_BUCKET_NAME=<base_name_for_your_bucket>
+AWS_ACCESS_KEY_ID=<your_aws_access_key_id>
+AWS_SECRET_ACCESS_KEY=<your_aws_secret_access_key>
+AWS_DEFAULT_REGION=<aws_region>
 
 
 Installation

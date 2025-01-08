@@ -14,7 +14,8 @@ The **Weather Dashboard** is a Python-based tool for fetching, displaying, and s
 1. **AWS Account**: Ensure you have an AWS account with appropriate permissions to create and use S3 buckets.
 2. **OpenWeatherMap API Key**: Sign up for an API key from [OpenWeatherMap](https://openweathermap.org/api).
 3. **Environment File**: Create a `.env` file in the project directory with the following variables:
-   ```plaintext
+
+
 WEATHER_API_KEY=<your_openweathermap_api_key>
 AWS_BUCKET_NAME=<base_name_for_your_bucket>
 AWS_ACCESS_KEY_ID=<your_aws_access_key_id>

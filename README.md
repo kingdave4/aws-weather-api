@@ -1,26 +1,32 @@
 # Weather Dashboard
 
-### Hello everyone Weclome to my first project of the 30 Days-of DEvops Challenge. 
-I am really excited to embark on this journey of learnning cloud and working on all these hands on projects together. 
-If you are still fresh on the learning cloud like me then get ready to learn along with me and get ready because it's going hot, tough and hard but we got this and we are going to work on it together and learn together.
+### Welcome to My First Project for the 30 Days of DevOps Challenge!. 
+I am excited to start this journey of learning cloud technologies and tackling hands-on projects together. If you're new to cloud computing like me, get ready! It's going to be challenging, but we're in this together to grow, learn, and thrive.
 
 
-**Weather Dashboard** : Our first project uses to use a python script to fetch weather information data from the OpenWeather API for specific cities and then saves it to a s3 bucket.
+**Weather Dashboard** : The Weather Dashboard is our first project. It uses a Python script to fetch weather data from the OpenWeatherMap API for specific cities and saves the data in an AWS S3 bucket. Let's dive in!
 
-## Key feactues of the project
-
-- Fetches weather data for multiple cities using the OpenWeatherMap API.
-- Displays weather information such as temperature, "feels like" temperature, humidity, and weather description.
-- Automatically creates an S3 bucket (with a randomized suffix) if it doesn't exist (which means you never have to worry about running into a bucket name already exists error message)
-- Saves weather data as JSON files to the S3 bucket.
+## Key Features of the project
+Fetches weather data for multiple cities using the OpenWeatherMap API.
+Displays weather details, including:
+    Current temperature.
+    "Feels like" temperature.
+    Humidity.
+    Weather description.
+Automatically creates an S3 bucket (with a unique randomized numbers) if it doesn't already exist, avoiding bucket name conflicts.
+Saves weather data as JSON files in the S3 bucket for storage.
 
 ## Prerequisites for the project
 
-1. **AWS Account**: Make sure you have an AWS account with appropriate permissions to create and use S3 buckets.
-2. **OpenWeatherMap API Key**: Sign up for an API key from [OpenWeatherMap](https://openweathermap.org/api) and get copy the API key and put it in the .env folder.
-3. **Visual Studio Code**: I recommand using Visual Studio Code because its easier to follow and understand but you can use your favorite IDE. 
-4. **Environment File**: Create a `.env` file in the project directory with the following variables:
+AWS Account: Ensure you have an AWS account with permissions to create and use S3 buckets.
 
+OpenWeatherMap API Key:
+    Sign up for an API key at OpenWeatherMap.
+    Copy your API key and store it in a .env file.
+    
+Development Environment: I recommend using Visual Studio Code, but feel free to use your preferred IDE.
+
+For the environment Variables: Create a .env file in the project directory and include the following:
 
 WEATHER_API_KEY=<your_openweathermap_api_key>
 
@@ -29,7 +35,7 @@ AWS_BUCKET_NAME=<base_name_for_your_bucket>
 
 ### AWS Setup on account the local computer
 
-Security credential : Login to your AWS account and go to IAM > Users > Security Credentials and then generte your CLI access key. 
+Security credential : Login to your AWS account and go to IAM > Users > Security Credentials and then generate your CLI access key. 
 Account setup locally : Open powershell or Git bash and then configure account locally with the following steps
 
 Step 1: Install the AWS CLI
@@ -47,6 +53,8 @@ aws configure
 AWS_ACCESS_KEY_ID=<your_aws_access_key_id>
 AWS_SECRET_ACCESS_KEY=<your_aws_secret_access_key>
 AWS_DEFAULT_REGION=<aws_region>
+
+Hints: Use the information from the access key you generated to find your access key and secret key.
 
 
 ### Installation

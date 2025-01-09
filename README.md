@@ -2,7 +2,7 @@
 
 ### Hello everyone Weclome to my first project of the 30 Days-of DEvops Challenge. 
 I am really excited to embark on this journey of learnning cloud and working on all these hands on projects together. 
-If you are still fresh on learning cloud then get ready to learn along with me and get ready because it's going hot, tough and hard but we got this and we are going to work on it together and learn together.
+If you are still fresh on the learning cloud like me then get ready to learn along with me and get ready because it's going hot, tough and hard but we got this and we are going to work on it together and learn together.
 
 
 **Weather Dashboard** : Our first project uses to use a python script to fetch weather information data from the OpenWeather API for specific cities and then saves it to a s3 bucket.

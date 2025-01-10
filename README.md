@@ -29,7 +29,7 @@ please do that first.
     AWS_DEFAULT_REGION=<aws_region
 
 
-Environment Variables: 
+#### Environment Variables: 
 
 Create a .env file in the project directory and include the following:
 
@@ -41,13 +41,13 @@ WEATHER_API_KEY=<your_openweathermap_api_key>
 AWS_BUCKET_NAME=<base_name_for_your_bucket>
 
 
-#### Installation
+### Installation
 Clone this repository:
 
     git clone https://github.com/kingdave4/aws-weather-api.git
     cd aws-weather-api
 
-### Dependencies
+#### Dependencies
 
 boto3: For interacting with AWS S3.
 
@@ -55,11 +55,11 @@ requests: For making HTTP requests to the OpenWeatherMap API.
 
 python-dotenv: For managing environment variables.
 
-### Install them using:
+#### Install dependencies:
     pip install boto3 requests python-dotenv
 
 
-### Install the required python packages version:
+#### Install the required python packages version:
     pip install -r requirements.txt
 
 
@@ -70,6 +70,4 @@ python-dotenv: For managing environment variables.
 
 ### S3 bucket Output
 ![image](https://github.com/user-attachments/assets/a2753b0a-2922-442a-9596-f17b8d7a3a09)
-
-
 

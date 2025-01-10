@@ -30,7 +30,9 @@ please do that first.
     AWS_DEFAULT_REGION=<aws_region
 
 
-Environment Variables: create a .env file in the project directory and include the following:
+Environment Variables: 
+
+Create a .env file in the project directory and include the following:
 
 WEATHER_API_KEY=<your_openweathermap_api_key>
 

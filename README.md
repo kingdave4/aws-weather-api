@@ -61,7 +61,7 @@ python-dotenv: For managing environment variables.
 
 
 ### Example Output
-    ![image](https://github.com/user-attachments/assets/71a42957-0a0d-4577-a072-7a9c9042fc56)
+![image](https://github.com/user-attachments/assets/71a42957-0a0d-4577-a072-7a9c9042fc56)
 
 
 

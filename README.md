@@ -13,7 +13,7 @@ Uses a python script to fetch weather data from the OpenWeatherMap API for speci
 
 ### Prerequisites for the project
 
-#### AWS Account: 
+#### Setup AWS Account: 
 
 Make sure you have an aws account with permissions to create and use S3 buckets.
 

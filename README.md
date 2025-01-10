@@ -41,7 +41,7 @@ WEATHER_API_KEY=<your_openweathermap_api_key>
 AWS_BUCKET_NAME=<base_name_for_your_bucket>
 
 
-### Installation
+#### Installation
 Clone this repository:
 
     git clone https://github.com/kingdave4/aws-weather-api.git

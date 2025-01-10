@@ -1,10 +1,11 @@
 # Weather Dashboard
 
-### Welcome to My First Project for the 30 Days of DevOps Challenge!. 
-I am excited to start this journey of learning cloud technologies and tackling hands-on projects together. If you're new to cloud computing like me, get ready! It's going to be challenging, but we're in this together to grow, learn, and thrive.
+### Welcome to My First Project of the 30 Days of DevOps Challenge!. 
+I am excited to start this journey of learning cloud technologies and tackling  all the hands-on projects together.
 
 
-**Weather Dashboard** : The Weather Dashboard is our first project. It uses a Python script to fetch weather data from the OpenWeatherMap API for specific cities and saves the data in an AWS S3 bucket. Let's dive in!
+**Weather Dashboard** : uses a Python script to fetch weather data from the OpenWeatherMap API for specific cities mentioned in the list and saves the data in an AWS S3 bucket. Let's dive in!
+
 
 ## Key Features of the project
 Fetches weather data for multiple cities using the OpenWeatherMap API.
@@ -54,7 +55,7 @@ AWS_ACCESS_KEY_ID=<your_aws_access_key_id>
 AWS_SECRET_ACCESS_KEY=<your_aws_secret_access_key>
 AWS_DEFAULT_REGION=<aws_region>
 
-Hints: Use the information from the access key you generated to find your access key and secret key.
+Hint: Use the information from the access key you generated to find your access key and secret key.
 
 
 ### Installation
@@ -65,7 +66,7 @@ git clone https://github.com/kingdave4/aws-weather-api.git
 cd aws-weather-api
 
 
-### Install the required Python packages:
+### Install the required Python packages version:
 
 pip install -r requirements.txt
 

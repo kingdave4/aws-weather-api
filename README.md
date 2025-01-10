@@ -60,7 +60,7 @@ python-dotenv: For managing environment variables.
     pip install boto3 requests python-dotenv
 
 
-### Install the required Python packages version:
+### Install the required python packages version:
     pip install -r requirements.txt
 
 

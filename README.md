@@ -12,6 +12,7 @@ I am excited to start this journey of learning cloud technologies and tackling  
 AWS Account: Ensure you have an AWS account with permissions to create and use S3 buckets.
 
 OpenWeatherMap API Key:
+   
     Sign up for an API key at https://openweathermap.org
     Copy your API key and store it in a .env file.
 

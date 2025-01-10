@@ -53,17 +53,17 @@ python-dotenv: For managing environment variables.
     pip install -r requirements.txt
 
 
-
 #### Install them using:
     pip install boto3 requests python-dotenv
 
 
 ### Run the program:
     python weather_dashboard.py
-
-
-### Example Output
 ![image](https://github.com/user-attachments/assets/71a42957-0a0d-4577-a072-7a9c9042fc56)
+
+
+### S3 bucket Output
+![image](https://github.com/user-attachments/assets/a2753b0a-2922-442a-9596-f17b8d7a3a09)
 
 
 

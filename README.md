@@ -11,17 +11,25 @@ Uses a Python script to fetch weather data from the OpenWeatherMap API for speci
 ### Prerequisites for the project
 
 AWS Account: Ensure you have an aws account with permissions to create and use S3 buckets.
+Go to IAM service, and then go to users to generate an access key adn then download it. 
+
+Used the downloaded access key to login aws locally using cli.
+
+    AWS_ACCESS_KEY_ID=<your_aws_access_key_id>
+
+    AWS_SECRET_ACCESS_KEY=<your_aws_secret_access_key>
+
+    AWS_DEFAULT_REGION=<aws_region
+
 
 Environment Variables: create a .env file in the project directory and include the following:
 
 WEATHER_API_KEY=<your_openweathermap_api_key>
 
-AWS_BUCKET_NAME=<base_name_for_your_bucket>
+      Sign up for an API key at https://openweathermap.org
+      Copy your API key and store it in a .env file.
 
-OpenWeatherMap API Key:
-   
-    Sign up for an API key at https://openweathermap.org
-    Copy your API key and store it in a .env file.
+AWS_BUCKET_NAME=<base_name_for_your_bucket>
 
 
 ### Installation
@@ -48,7 +56,6 @@ pip install -r requirements.txt
 #### Install them using:
 
 pip install boto3 requests python-dotenv
-
 
 
 ### Run the program:

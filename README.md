@@ -13,7 +13,7 @@ Uses a Python script to fetch weather data from the OpenWeatherMap API for speci
 
 ### Prerequisites for the project
 
-AWS Account: ensure you have an aws account with permissions to create and use S3 buckets.
+AWS Account: make sure you have an aws account with permissions to create and use S3 buckets.
 Go to IAM service, and then go to users to generate an access key adn then download it. 
 
 Used the downloaded access key and use the "aws configure" to login aws locally using cli. 

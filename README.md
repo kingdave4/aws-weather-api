@@ -11,6 +11,7 @@ Uses a Python script to fetch weather data from the OpenWeatherMap API for speci
 ### Prerequisites for the project
 
 AWS Account: Ensure you have an AWS account with permissions to create and use S3 buckets.
+
 Environment Variables: Create a .env file in the project directory and include the following:
 
 WEATHER_API_KEY=<your_openweathermap_api_key>

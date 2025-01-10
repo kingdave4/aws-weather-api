@@ -1,6 +1,7 @@
 # Weather Dashboard
 
-### Welcome to my first devops challenge of the 30 Days!. 
+### Welcome to my first project of the 30 Days Devops Challenge!. 
+
 I am excited to start this journey of learning cloud technologies and tackling  all the hands-on projects together.
 
 ![Weatherdashboard drawio](https://github.com/user-attachments/assets/30f711e9-3681-4feb-8d25-b7a4209175e6)

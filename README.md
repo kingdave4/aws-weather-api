@@ -4,10 +4,10 @@
 I am excited to start this journey of learning cloud technologies and tackling  all the hands-on projects together.
 
 
-**Weather Dashboard** : uses a Python script to fetch weather data from the OpenWeatherMap API for specific cities mentioned in the list and saves the data in an AWS S3 bucket. Let's dive in!
+#### Weather Dashboard** : uses a Python script to fetch weather data from the OpenWeatherMap API for specific cities mentioned in the list and saves the data in an AWS S3 bucket. Let's dive in!
 
 
-## Key Features of the project
+### Key Features of the project
 Fetches weather data for multiple cities using the OpenWeatherMap API.
 Displays weather details, including:
     Current temperature.
@@ -17,7 +17,7 @@ Displays weather details, including:
 Automatically creates an S3 bucket (with a unique randomized numbers) if it doesn't already exist, avoiding bucket name conflicts.
 Saves weather data as JSON files in the S3 bucket for storage.
 
-## Prerequisites for the project
+### Prerequisites for the project
 
 AWS Account: Ensure you have an AWS account with permissions to create and use S3 buckets.
 

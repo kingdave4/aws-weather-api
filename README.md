@@ -35,11 +35,11 @@ AWS_BUCKET_NAME=<base_name_for_your_bucket>
 ### Installation
 Clone this repository:
 
-git clone https://github.com/kingdave4/aws-weather-api.git
-
-cd aws-weather-api
+    git clone https://github.com/kingdave4/aws-weather-api.git
+    cd aws-weather-api
 
 ### Dependencies
+
 boto3: For interacting with AWS S3.
 
 requests: For making HTTP requests to the OpenWeatherMap API.
@@ -48,24 +48,20 @@ python-dotenv: For managing environment variables.
 
 
 ### Install the required Python packages version:
-
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 
 #### Install them using:
-
-pip install boto3 requests python-dotenv
+    pip install boto3 requests python-dotenv
 
 
 ### Run the program:
-
-python weather_dashboard.py
+    python weather_dashboard.py
 
 
 ### Example Output
-
-![image](https://github.com/user-attachments/assets/71a42957-0a0d-4577-a072-7a9c9042fc56)
+    ![image](https://github.com/user-attachments/assets/71a42957-0a0d-4577-a072-7a9c9042fc56)
 
 
 

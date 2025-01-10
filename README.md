@@ -7,31 +7,23 @@ I am excited to start this journey of learning cloud technologies and tackling  
 #### Weather Dashboard : uses a Python script to fetch weather data from the OpenWeatherMap API for specific cities mentioned in the list and saves the data in an AWS S3 bucket. Let's dive in!
 
 
-### Key Features of the project
-Fetches weather data for multiple cities using the OpenWeatherMap API.
-Displays weather details, including:
-    Current temperature.
-    "Feels like" temperature.
-    Humidity.
-    Weather description.
-Automatically creates an S3 bucket (with a unique randomized numbers) if it doesn't already exist, avoiding bucket name conflicts.
-Saves weather data as JSON files in the S3 bucket for storage.
-
 ### Prerequisites for the project
 
 AWS Account: Ensure you have an AWS account with permissions to create and use S3 buckets.
 
 OpenWeatherMap API Key:
-    Sign up for an API key at OpenWeatherMap.
+    Sign up for an API key at https://openweathermap.org
     Copy your API key and store it in a .env file.
-    
-Development Environment: I recommend using Visual Studio Code, but feel free to use your preferred IDE.
+
 
 For the environment Variables: Create a .env file in the project directory and include the following:
 
 WEATHER_API_KEY=<your_openweathermap_api_key>
 
 AWS_BUCKET_NAME=<base_name_for_your_bucket>
+
+
+![image](https://github.com/user-attachments/assets/078a4087-fd47-43cd-93b9-f3ef1d2bb0ce)
 
 
 ### AWS Setup on account the local computer

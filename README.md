@@ -56,13 +56,12 @@ requests: For making HTTP requests to the OpenWeatherMap API.
 
 python-dotenv: For managing environment variables.
 
+#### Install them using:
+    pip install boto3 requests python-dotenv
+
 
 ### Install the required Python packages version:
     pip install -r requirements.txt
-
-
-#### Install them using:
-    pip install boto3 requests python-dotenv
 
 
 ### Run the program:

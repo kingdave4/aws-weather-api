@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-### Welcome to my first devops challenge of the 30 Days of DevOps Challenge!. 
+### Welcome to my first devops challenge of the 30 Days Challenge!. 
 I am excited to start this journey of learning cloud technologies and tackling  all the hands-on projects together.
 
 

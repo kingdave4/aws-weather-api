@@ -4,7 +4,8 @@
 
 I am excited to start this journey of learning cloud technologies and tackling  all the hands-on projects together.
 
-![Weatherdashboard drawio (1)](https://github.com/user-attachments/assets/4168bc39-cadd-4d56-b725-9359e833d21c)
+![Weatherdashboard](https://github.com/user-attachments/assets/d6291f99-3c45-4441-b1b2-6a241068005b)
+
 
 
 

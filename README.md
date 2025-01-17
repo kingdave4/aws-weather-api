@@ -7,11 +7,19 @@ I am excited to start this journey of learning cloud technologies and tackling  
 ![Weatherdashboard](https://github.com/user-attachments/assets/d6291f99-3c45-4441-b1b2-6a241068005b)
 
 
-
-
 ### Weather Dashboard : 
 Uses a python script to fetch weather data from the OpenWeatherMap API for specific cities mentioned in the list and saves the data in an AWS S3 bucket. Let's dive in!
 
+
+### What i learned from the Project
+
+Setting up and managing AWS S3 buckets through python code.
+
+Securing API keys and managing environment variables.
+
+Best practices in Python API integration.
+
+Managing cloud resources effectively.
 
 ### Prerequisites for the project
 
@@ -77,8 +85,3 @@ python-dotenv: For managing environment variables.
 ![image](https://github.com/user-attachments/assets/a2753b0a-2922-442a-9596-f17b8d7a3a09)
 
 
-## What i learned from the Project
-Setting up and managing AWS S3 buckets through python code.
-Securing API keys and managing environment variables.
-Best practices in Python API integration.
-Managing cloud resources effectively.

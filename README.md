@@ -76,3 +76,9 @@ python-dotenv: For managing environment variables.
 ### S3 bucket Output
 ![image](https://github.com/user-attachments/assets/a2753b0a-2922-442a-9596-f17b8d7a3a09)
 
+
+## What i learned from the Project
+Setting up and managing AWS S3 buckets through python code.
+Securing API keys and managing environment variables.
+Best practices in Python API integration.
+Managing cloud resources effectively.

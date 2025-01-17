@@ -13,7 +13,7 @@ Uses a python script to fetch weather data from the OpenWeatherMap API for speci
 
 ### What i learned from the Project
 
-Setting up and managing AWS S3 buckets through python code.
+Setting up and managing AWS S3 buckets through python code using boto3.
 
 Securing API keys and managing environment variables.
 

@@ -7,8 +7,10 @@ I am excited to start this journey of learning cloud technologies and tackling  
 ![Weatherdashboard](https://github.com/user-attachments/assets/d6291f99-3c45-4441-b1b2-6a241068005b)
 
 
+
 ### Weather Dashboard : 
 Uses a python script to fetch weather data from the OpenWeatherMap API for specific cities mentioned in the list and saves the data in an AWS S3 bucket. Let's dive in!
+
 
 
 ### What i learned from the Project
@@ -20,6 +22,7 @@ Securing API keys and managing environment variables.
 Best practices in Python API integration.
 
 Managing cloud resources effectively.
+
 
 ### Prerequisites for the project
 
@@ -54,11 +57,13 @@ WEATHER_API_KEY=<your_openweathermap_api_key>
 AWS_BUCKET_NAME=<base_name_for_your_bucket>
 
 
+
 ### Installation
 Clone this repository:
 
     git clone https://github.com/kingdave4/aws-weather-api.git
     cd aws-weather-api
+
 
 #### Dependencies
 

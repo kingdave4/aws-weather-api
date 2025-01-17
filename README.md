@@ -30,7 +30,7 @@ Managing cloud resources effectively.
 
 Make sure you have an aws account with permissions to create and use S3 buckets.
 
-Go to IAM service, then go to users to generate an access key and then click on then  download it.
+Go to IAM service, then go to users to generate an access key and then click on download.
 
 
 Use the access key to login locally by using "aws configure".

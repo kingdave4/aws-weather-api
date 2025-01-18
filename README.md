@@ -8,7 +8,7 @@ I am excited to start this journey of learning cloud technologies and tackling  
 
 
 
-### Weather Dashboard python code : 
+### Weather Dashboard : 
 Uses a python script to fetch weather data from the OpenWeatherMap API for specific cities mentioned in the list and saves the data in an AWS S3 bucket. Let's dive in!
 
 
